@@ -18,7 +18,7 @@ dan [JavaScript](index.js)
 ## Output
 ![Screenshoot](image.png)
 
-## Deskripsi Program
+## Deskripsi
 Program ini adalah sebuah alat pengkonversi gaya teks interaktif berbasis web, dimana pengguna bisa memasukkan kalimat ke dalam kotak teks yang disediakan, lalu sistem akan secara otomatis mendeteksi dan menghitung jumlah total huruf beserta rincian huruf besar dan kecilnya.     
 Setelah itu laman akan dibuat berada di tengah dan mengubah font-nya dengan Inconsolata dari Google Fonts. Cara meneraptkan font Inconsolata yaitu pada `index.html` menambahkan `<link>` font Inconsolata dari Google fonts di dalam bagian `<head>`, Setelah itu pada `index.css`, Menambahkan universal selector (`*`) dengan properti `font-family: 'Inconsolata', monospace;`, Ini berfungsi untuk memaksa semua elemen berubah fontnya ke Inconsolata.
 Untuk menengahkan layout halaman, pada `index.html` membungkus seluruh elemen pada `<body>` ke dalam sebuah `<div>` baru yang diberi class `<container>`. Lalu di `index.css`, Menggunakan Flexbox pada `body` dengan properti `display: flex;` dan `justify-content: center;` Supaya elemen-elemen di dalamnya (container) tepat ke tengah layar secara horizontal.

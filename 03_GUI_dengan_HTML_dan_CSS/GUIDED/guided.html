@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KPL</title>
+    <link rel="stylesheet" href="guided.css">
+</head>
+<body>
+    <h1>Pengkonversi Gaya Teks</h1>
+    <p>Alat ini bisa mengubah teks menjadi huruf besar dan huruf kecil.</p>
+    
+    <label for="editor-kecil">Masukkan teks:</label>
+    <textarea class="kotak-input" id="editor-kecil" rows="10" cols="60" placeholder="Kata-kata..."></textarea>
+    
+    <p>
+        Huruf: <span id="hf">0</span>,
+        huruf besar: <span id="hb">0</span>,
+        huruf kecil: <span id="hk">0</span>
+    </p>
+    
+    <div>
+        <button id="huruf-besar">Besarkan</button>
+        <button id="huruf-kecil">Kecilkan</button>
+        <button id="huruf-paragraf">Paragrafkan</button>
+        </div>
+    
+    <script src="./guided.js"></script>
+</body>
+</html>

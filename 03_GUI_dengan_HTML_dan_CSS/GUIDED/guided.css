@@ -1,0 +1,49 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.kotak-input {
+    display: block;
+    resize: none;
+    max-width: 100%;
+}
+
+#hf {
+    color: red;
+    font-weight: bold;
+}
+
+#hb {
+    color: green;
+    font-weight: bold;
+}
+
+#hk {
+    color: blue;
+    font-weight: bold;
+}
+
+button {
+    display: inline;
+    margin-right: 5px; 
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        text-align: right;
+    }
+
+    p {
+        text-align: right;
+    }
+}

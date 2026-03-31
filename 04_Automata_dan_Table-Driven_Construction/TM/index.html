@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guithub</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Pengkonversi Gaya Teks</h1>
+    
+    <p>Alat ini bisa mengubah teks menjadi huruf besar dan huruf kecil.</p>
+    
+    <label for="editor-kecil">Masukkan teks:</label>
+    <textarea class="kotak-input" id="editor-kecil" rows="10" cols="60" placeholder="Kata-kata..."></textarea>
+    
+    <p>
+        Huruf: <span id="hf">0</span>, 
+        huruf besar: <span id="hb">0</span> 
+        huruf kecil: <span id="hk">0</span>
+    </p>
+    
+    <div>
+        <button id="huruf-besar">Besarkan</button>
+        <button id="huruf-kecil">Kecilkan</button>
+    </div>
+    
+    <br>
+    <div class="mode-div">
+        <button id="light">Mode Terang</button>
+        <button id="dark">Mode Gelap</button>
+        <button id="sepia">Mode Sepia</button>
+    </div>
+
+    </div><script src="./index.js"></script>
+</body>
+</html>

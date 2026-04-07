@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "checkJs": true, // periksa berkas JS
+    "allowJs": true, // izinkan cek berkas JS
+    "strict": true, // buat berkas JS patuh aturan TS
+    "noEmit": true, // pastikan tidak ada berkas TS yang dibuat
+    "lib": ["ES2015", "DOM"]
+  },
+  "include": ["./**/*.js"]
+}

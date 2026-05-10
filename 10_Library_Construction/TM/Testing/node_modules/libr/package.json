@@ -1,0 +1,6 @@
+{
+    "name": "libr",
+    "version": "1.0",
+    "main": "index.js",
+    "type": "module"
+}

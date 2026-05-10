@@ -1,0 +1,15 @@
+{
+  "name": "hitung_nilai",
+  "version": "1.0.0",
+  "description": "Folder untuk testing library dari folder GUIDED.md",
+  "main": "test.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hitung_nilai": "file:../GUIDED.md"
+  }
+}

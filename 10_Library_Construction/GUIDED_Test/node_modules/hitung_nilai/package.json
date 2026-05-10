@@ -1,0 +1,9 @@
+{
+  "name": "hitung_nilai",
+  "version": "1.0.0",
+  "description": "Library matematika untuk operasi aritmatika dasar",
+  "main": "index.js",
+  "type": "module",
+  "author": "",
+  "license": "ISC"
+}
